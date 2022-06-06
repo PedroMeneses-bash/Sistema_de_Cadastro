@@ -21,12 +21,12 @@ public class NewMain {
         Financeiro contador1 = new Financeiro();
         
         contador1.setNome("Leonardo Silva");
-        contador1.setCpf(054452563647l);
+        contador1.setCpf("054452563647l");
         contador1.setEmail("leo_contabilidade@gmail.com");
         contador1.setContatoTelefonico("(74)988563214");
         contador1.setMatriculaFunc(202205092);
         contador1.setCargo("Contador");
-        contador1.setNumeroCrc(12345);
+        contador1.setNumeroCrc("12345");
         contador1.registrarBiometria();
         contador1.pagar();
         System.out.println(contador1.toString()+ ", Matricula= " +vendedor1.getMatriculaFunc()+ ", Cargo= " + vendedor1.getCargo()+ " Numero CRC=" + contador1.getNumeroCrc());
@@ -37,7 +37,7 @@ public class NewMain {
         Transporte motorista1 = new Transporte();
         
         motorista1.setNome("Charles Leclerc");
-        motorista1.setCpf(14565232589L);
+        motorista1.setCpf("14565232589");
         motorista1.setEmail("charlinho_leclerc2022@ferrari.com.it");
         motorista1.setContatoTelefonico("(71)988218899");
         motorista1.setMatriculaFunc(20220509);
@@ -55,7 +55,7 @@ public class NewMain {
         representante1.setNome("Joey Witson");
         representante1.setEmail("witson_joey@angolini.com.us");
         representante1.setContatoTelefonico("(71)36954523");
-        representante1.setCnpj(44829653000153l);
+        representante1.setCnpj("44829653000153l");
         representante1.setRazaoSocial("Angolini & Angolini Ltda.");
         System.out.println("\n");
         

@@ -2,7 +2,7 @@
 package cadastros;
 
 
-public class Fornecedor extends Pessoa{
+public class Fornecedor extends Pessoa implements Temporario{
 
     private String cnpj;
     private String razaoSocial;
@@ -26,6 +26,11 @@ public class Fornecedor extends Pessoa{
 
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
+    }
+
+    @Override
+    public void registroDeBiometriaTemporaria() {
+        System.out.println("Registro Válido por 7 dias. ");
     }
     
     
